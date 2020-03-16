@@ -1,0 +1,24 @@
+{
+  "name": "file-portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^8.0.8",
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "pm2": "^4.2.3",
+    "query-string": "^6.11.1",
+    "request": "^2.88.2"
+  }
+}
+
